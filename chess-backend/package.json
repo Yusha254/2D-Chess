@@ -1,0 +1,35 @@
+{
+  "name": "chess-backend",
+  "version": "1.0.0",
+  "description": "Web Socket feature for chat and Online multiplayer",
+  "keywords": [
+    "Chess",
+    "Web",
+    "Socket",
+    "Chat",
+    "Real",
+    "time",
+    "syncing"
+  ],
+  "license": "ISC",
+  "author": "Yush3",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "@types/socket.io": "^3.0.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
